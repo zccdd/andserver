@@ -4,6 +4,6 @@
 /.idea/
 .DS_Store
 /build
-/gradle
+/gradle/wrapper/*.jar
 /captures
 .externalNativeBuild

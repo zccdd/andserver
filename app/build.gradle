@@ -1,4 +1,10 @@
 apply plugin: 'com.android.application'
+//apply plugin: 'com.yanzhenjie.andserver'
+
+//plugins {
+//    id 'com.android.application'
+//    id 'com.yanzhenjie.andserver'
+//}
 
 android {
     compileSdkVersion 25
@@ -21,6 +27,9 @@ android {
 
 dependencies {
     compile 'com.yanzhenjie:andserver:1.0.2'
+//    implementation 'com.yanzhenjie.andserver:api:2.1.9'
+//    annotationProcessor 'com.yanzhenjie.andserver:processor:2.1.9'
+
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
